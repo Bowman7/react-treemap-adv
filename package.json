@@ -1,41 +1,33 @@
 {
-    "name": "react-treemap",
-    "version": "0.0.1",
-    "description": "A customizable and interactive TreeMap component for React.",
-    "main": "dist/index.js",
-    "types": "react-treemap.d.ts",
-    "scripts": {
-        "build": "webpack --mode production",
-        "prepare": "npm run build"
-    },
-    "keywords": [
-        "react",
-        "treemap",
-        "data visualization",
-        "charts"
-    ],
-    "author": "MirMohammad Musavi mir.moh.musavi@gmail.com",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/mmmusavi/react-treemap.git"
-    },
-    "bugs": {
-        "url": "https://github.com/mmmusavi/react-treemap/issues"
-    },
-    "homepage": "https://github.com/mmmusavi/react-treemap#readme",
-    "peerDependencies": {
-        "react": "^17.0.0 || ^18.0.0",
-        "react-dom": "^17.0.0 || ^18.0.0"
-    },
-    "devDependencies": {
-        "@babel/core": "^7.26.7",
-        "@babel/preset-env": "^7.26.7",
-        "@babel/preset-react": "^7.26.3",
-        "babel-loader": "^9.2.1",
-        "css-loader": "^7.1.2",
-        "style-loader": "^4.0.0",
-        "webpack": "^5.97.1",
-        "webpack-cli": "^6.0.1"
-    }
+  "name": "react-treemap-adv",
+  "version": "0.1.0",
+  "description": "New features over old react-treemap",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "author": "Sulayen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bowman7/react-treemap-adv"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "@babel/preset-react": "^7.28.5",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.105.2",
+    "webpack-cli": "^6.0.1"
+  }
 }
